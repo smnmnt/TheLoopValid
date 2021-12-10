@@ -40,6 +40,10 @@ font-size: 14px;
 line-height: 17px;
 color: #212121;
 }
+.for__who:hover {
+    transition: 500ms;
+    text-shadow: #000000 0 3px 10px;
+}
 .logo__img{
 margin: 0 100px 0 101px;
 }
@@ -87,13 +91,21 @@ letter-spacing: 0.04em;
 color: #000000;
 }
 .button{
-
     background: #D7B399;
     border:none;
     cursor:pointer;
+    transition: 500ms;
+    border: 1px solid #D7B399;
+}
+.button:hover {
+    background-color: #302C34;
+    color: #fff;
+    transition: 500ms;
+    border: 1px solid #302C34;
+    border-radius: 50px;
 }
 
-.buttom__primary{
+.button__primary{
     color: white;
     padding: 17px 30px;
 }
